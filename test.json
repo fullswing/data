@@ -1,42 +1,39 @@
 {
-  "directed": True,
-  "multigraph": False,
-  "graph": {"name": "route000000000"},
   "nodes": [
     {
       "name": "0",
-      "smiles": "OC(=O)COCCN1CCN(CC1)C(c1ccccc1)c1ccc(Cl)cc1",
-      "node_type": "OR",
+      //"smiles": "OC(=O)COCCN1CCN(CC1)C(c1ccccc1)c1ccc(Cl)cc1",
+      //"node_type": "OR",
       "id": "0"
     },
     {
       "name": "1",
-      "smarts": "[#6]-[#7]-[#6].[#6]-[#6]=O>>[#6]-[#6]-[#7](-[#6])-[#6]",
-      "node_type": "AND",
+      //"smarts": "[#6]-[#7]-[#6].[#6]-[#6]=O>>[#6]-[#6]-[#7](-[#6])-[#6]",
+      //"node_type": "AND",
       "id": "1"
     },
     {
       "name": "2",
-      "smiles": "Clc1ccc(cc1)C(N1CCNCC1)c1ccccc1",
-      "node_type": "OR",
+      //"smiles": "Clc1ccc(cc1)C(N1CCNCC1)c1ccccc1",
+      //"node_type": "OR",
       "id": "2"
     },
     {
       "name": "3", 
-      "smiles": "OC(=O)COCC=O", 
-      "node_type": "OR", 
+      //"smiles": "OC(=O)COCC=O", 
+      //"node_type": "OR", 
       "id": "3"
     },
     {
       "name": "2720",
-      "smarts": "[#6]-[#6](-[#8])=O>>[#6]-[#6]=O",
-      "node_type": "AND",
+      //"smarts": "[#6]-[#6](-[#8])=O>>[#6]-[#6]=O",
+      //"node_type": "AND",
       "id": "2720"
     },
     {
       "name": "2721",
-      "smiles": "OC(=O)COCC(O)=O",
-      "node_type": "OR",
+      //"smiles": "OC(=O)COCC(O)=O",
+      //"node_type": "OR",
       "id": "2721"
       }
     ],
