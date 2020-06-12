@@ -1,0 +1,46 @@
+{
+    "smiles": "OC(=O)COCCN1CCN(CC1)C(c1ccccc1)c1ccc(Cl)cc1",
+    "name": "0",
+    "children": [
+        {
+            "smiles": "Clc1ccc(C(c2ccccc2)N2CCNCC2)cc1",
+            "name": "1",
+            "children": [
+                {
+                    "smiles": "C1CNCCN1",
+                    "name": "3"
+                },
+                {
+                    "smiles": "Cc1ccc(S(=O)(=O)OC(c2ccccc2)c2ccc(Cl)cc2)cc1",
+                    "name": "4",
+                    "children": [
+                        {
+                            "smiles": "O=S(=O)(OC(c1ccccc1)c1ccc(Cl)cc1)c1ccc(CO)cc1",
+                            "name": "5",
+                            "children": [
+                                {
+                                    "smiles": "O=S(=O)(Cl)c1ccc(CO)cc1",
+                                    "name": "6",
+                                    "children": [
+                                        {
+                                            "smiles": "CC(=O)OCc1ccc(S(=O)(=O)Cl)cc1",
+                                            "name": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "smiles": "OC(c1ccccc1)c1ccc(Cl)cc1",
+                                    "name": "7"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "smiles": "O=C(O)COCCCl",
+            "name": "2"
+        }
+    ]
+}
